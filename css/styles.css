@@ -31,6 +31,7 @@ main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 5px;
 }
 
@@ -47,6 +48,7 @@ nav {
     width: 100%;
     margin-left: -100px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -64,15 +66,27 @@ nav a:hover {
 }
 
 h1, h2, p {
-    margin: 5px;
+    margin: 0;
+    padding: 5px;
 }
 
 #logo {
     height: 100px;
 }
 
-#biography, #mission-statement {
+#current-page {
+    font-size: 2em;
+}
+
+#main-home {
+    align-self: center;
+    width: 54%;
     text-align: center;
+}
+
+#main-home h1 {
+    background-color: #f77f00;
+    border-radius: 10px;
 }
 
 #socials a {
@@ -87,6 +101,7 @@ h1, h2, p {
 
 .recipe-card {
     display: flex;
+    width: 100%;
     margin: 5px;
 }
 
