@@ -15,7 +15,6 @@ body {
     background-color: var(--primary-color);
     margin: 0 auto;
     color: var(--text-color);
-    font-family: var(--body-font);
     display: flex;
     flex-direction: column;
     min-height: 100dvb;
@@ -65,7 +64,14 @@ nav a:hover {
     background-color: var(--accent2-color);
 }
 
-h1, h2, p {
+h1, h2 {
+    font-family: var(--heading-font);
+    margin: 0;
+    padding: 5px;
+}
+
+p, a {
+    font-family: var(--body-font);
     margin: 0;
     padding: 5px;
 }
